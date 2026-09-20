@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Zhaoran Feng — AI for Science, Scientific Agents, Scientific Computing, and Verifiable Learning.">
+  <title>Zhaoran Feng</title>
+  <style>
+    :root{
+      --text:#222;
+      --muted:#666;
+      --blue:#1772d0;
+      --blue-dark:#0e559e;
+      --line:#e7e7e7;
+      --max:930px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      background:#fff;
+      color:var(--text);
+      font-family:Arial, Helvetica, sans-serif;
+      font-size:15px;
+      line-height:1.55;
+    }
+    a{color:var(--blue);text-decoration:none}
+    a:hover{text-decoration:underline;color:var(--blue-dark)}
+    .page{
+      width:min(var(--max),calc(100% - 34px));
+      margin:0 auto;
+      padding:34px 0 54px;
+    }
+    .hero{
+      display:grid;
+      grid-template-columns:minmax(0,1fr) 180px;
+      gap:32px;
+      align-items:start;
+      margin-bottom:18px;
+    }
+    h1{
+      font-family:Georgia,"Times New Roman",serif;
+      font-size:34px;
+      line-height:1.1;
+      font-weight:500;
+      margin:4px 0 12px;
+    }
+    .hero p{margin:0 0 11px}
+    .tagline{
+      color:#4a4a4a;
+      font-size:16px;
+      margin-bottom:15px!important;
+    }
+    .links{margin-top:14px;font-size:15px}
+    .sep{color:#aaa;margin:0 7px}
+    .profile-photo{
+      width:180px;
+      height:226px;
+      object-fit:cover;
+      object-position:center top;
+      border-radius:4px;
+      border:1px solid #ddd;
+      display:block;
+    }
+    section{margin-top:27px}
+    h2{
+      font-family:Georgia,"Times New Roman",serif;
+      font-size:23px;
+      font-weight:500;
+      line-height:1.2;
+      margin:0 0 13px;
+      padding-bottom:4px;
+      border-bottom:1px solid var(--line);
+    }
+    ul{padding-left:20px}
+    li{margin:6px 0}
+    .pub{
+      padding:13px 0 15px;
+      border-bottom:1px solid #f0f0f0;
+    }
+    .pub.with-thumb{
+      display:grid;
+      grid-template-columns:178px minmax(0,1fr);
+      gap:18px;
+      align-items:start;
+    }
+    .pub.no-thumb{
+      padding-left:0;
+    }
+    .pub-thumb{
+      width:178px;
+      height:110px;
+      object-fit:cover;
+      border:1px solid #ddd;
+      border-radius:3px;
+      background:#fafafa;
+    }
+    .pub-title{
+      font-weight:700;
+      line-height:1.35;
+      margin-bottom:3px;
+    }
+    .authors,.venue,.desc,.pub-links{
+      font-size:14px;
+    }
+    .authors{color:#444}
+    .venue{color:#555;margin-top:1px}
+    .desc{color:#555;margin-top:5px}
+    .pub-links{margin-top:4px}
+    .pub-links a{margin-right:10px}
+    .project{
+      margin:16px 0 23px;
+    }
+    .project-title{
+      font-size:16px;
+      font-weight:700;
+      margin-bottom:3px;
+    }
+    .project-meta{
+      color:#777;
+      font-size:13.5px;
+      margin-bottom:8px;
+    }
+    .workflow{
+      width:100%;
+      display:block;
+      margin:11px 0 10px;
+      border:1px solid #e0e0e0;
+      border-radius:3px;
+    }
+    .timeline{
+      display:grid;
+      grid-template-columns:145px minmax(0,1fr);
+      gap:14px;
+      margin:9px 0;
+    }
+    .date{
+      color:#666;
+      font-size:14px;
+      white-space:nowrap;
+    }
+    .small{color:#626262;font-size:14px}
+    .footer{
+      color:#999;
+      font-size:12px;
+      text-align:center;
+      margin-top:36px;
+      padding-top:16px;
+      border-top:1px solid var(--line);
+    }
+    @media(max-width:720px){
+      .page{width:min(var(--max),calc(100% - 26px));padding-top:24px}
+      .hero{grid-template-columns:1fr}
+      .profile-photo{width:150px;height:188px;order:-1}
+      .pub.with-thumb{grid-template-columns:1fr}
+      .pub-thumb{width:100%;height:auto;max-width:340px}
+      .timeline{grid-template-columns:1fr;gap:1px}
+    }
+  </style>
+</head>
+
+<body>
+<main class="page">
+  <header class="hero">
+    <div>
+      <h1>Zhaoran Feng</h1>
+      <p class="tagline">Ph.D. Student · AI for Science · Scientific Agents</p>
+
+      <p>
+        I am a Ph.D. student in <strong>Optoelectronic Science and Engineering</strong> at
+        <strong>Nanjing University</strong>, jointly trained with the
+        <strong>Shanghai Innovation Institute</strong>.
+        My research lies at the intersection of <strong>AI for Science</strong>,
+        <strong>scientific agents</strong>, <strong>scientific computing</strong>,
+        and <strong>verifiable learning</strong>.
+      </p>
+
+      <p>
+        I am interested in turning open-ended scientific problems into
+        <strong>executable, verifiable, and reproducible</strong> training and evaluation tasks,
+        and in building AI systems that collaborate with scientific data, physical simulators,
+        and code tools to solve complex scientific problems.
+      </p>
+
+      <div class="links">
+        <a href="mailto:602025220012@smail.nju.edu.cn">Email</a>
+        <span class="sep">/</span>
+        <a href="https://github.com/AngelRan-Sii" target="_blank" rel="noopener">GitHub</a>
+        <span class="sep">/</span>
+        <a href="Zhaoran_Feng_CV.pdf" target="_blank">CV</a>
+      </div>
+    </div>
+
+    <img class="profile-photo" src="assets/profile.jpg" alt="Zhaoran Feng">
+  </header>
+
+  <section id="research">
+    <h2>Research</h2>
+    <p>
+      My current research focuses on AI systems that can reason, search, optimize,
+      and verify within scientific environments.
+    </p>
+    <ul>
+      <li>
+        <strong>Scientific Agents and Self-Evolving Optimization.</strong>
+        Designing agent workflows that jointly decide <em>where to search</em> and
+        <em>how to search</em> through historical experience, tool execution,
+        feedback, and iterative strategy evolution.
+      </li>
+      <li>
+        <strong>Scientific Data and Verifiable Learning.</strong>
+        Building high-quality scientific datasets, benchmarks, and independent
+        verification pipelines for training and evaluating reliable AI systems.
+      </li>
+      <li>
+        <strong>Physics-Aware AI and Complex Systems.</strong>
+        Integrating machine learning with physical priors, simulation, and
+        high-performance scientific computing for climate, quantum, and other complex systems.
+      </li>
+    </ul>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+
+    <div class="pub with-thumb">
+      <img class="pub-thumb" src="assets/complexity_paper.png" alt="Complexity-powered machine intelligent classification overview">
+      <div>
+        <div class="pub-title">Complexity-powered Machine Intelligent Classification of Quantum Many-body Dynamics</div>
+        <div class="authors"><strong>Zhaoran Feng</strong> et al.</div>
+        <div class="venue"><em>Physical Review E</em> 113, 065301 (2026) · Published</div>
+        <div class="desc">
+          A complexity-enhanced representation for unsupervised identification of
+          dynamical phases and transition boundaries in quantum many-body systems.
+        </div>
+        <div class="pub-links">
+          <a href="https://mp.weixin.qq.com/s/xLQ4btFuQxieFbDtXCkVKQ" target="_blank" rel="noopener">Media coverage · QbitAI</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub no-thumb">
+      <div class="pub-title">PhysTC: A Physics-Enhanced Dataset and Architecture for High-Precision Tropical Cyclone Forecasting</div>
+      <div class="authors"><strong>Zhaoran Feng</strong> et al.</div>
+      <div class="venue">NeurIPS 2026 · Under Review</div>
+      <div class="desc">
+        A global tropical-cyclone dataset spanning 1950–2023 and a physics-enhanced architecture
+        combining Eulerian–Lagrangian representations with delayed-state reconstruction.
+      </div>
+    </div>
+
+    <div class="pub no-thumb">
+      <div class="pub-title">Blind-Window Forecasting: Real-Time Benchmarking and Multimodal Reconstruction for Tropical Cyclones</div>
+      <div class="authors"><strong>Zhaoran Feng</strong> et al.</div>
+      <div class="venue">NeurIPS 2026 · Under Review</div>
+      <div class="desc">
+        A real-time benchmark and multimodal reconstruction framework for tropical-cyclone
+        forecasting under realistic observation and reanalysis latency.
+      </div>
+    </div>
+
+    <div class="pub no-thumb">
+      <div class="pub-title">Learning at Different Speeds: Equilibrium Routing for AI-Driven Science</div>
+      <div class="authors"><strong>Zhaoran Feng</strong> et al.</div>
+      <div class="venue">AAAI · Under Review</div>
+      <div class="desc">
+        An equilibrium-routing method for multi-task AI-for-Science learning,
+        evaluated on tropical cyclones, QM9 molecular properties, and transverse-field Ising tasks.
+      </div>
+    </div>
+
+    <div class="pub no-thumb">
+      <div class="pub-title">AI-Driven Next-Generation Climate Models: Toward an Interpretable Behavior–Emission–Climate Feedback Framework</div>
+      <div class="authors"><strong>Zhaoran Feng</strong> et al.</div>
+      <div class="venue"><em>Advances in Climate Change Research</em> / related climate research series · Accepted review work</div>
+      <div class="desc">
+        A review of AI climate modeling and physics-constrained learning, with emphasis
+        on interpretable feedbacks and uncertainty.
+      </div>
+    </div>
+
+    <div class="pub no-thumb">
+      <div class="pub-title">Machine Learning and Early Warning for Complex Climate Transitions</div>
+      <div class="authors"><strong>Zhaoran Feng</strong> et al.</div>
+      <div class="venue"><em>Advances in Climate Change Research</em> · Under Review</div>
+      <div class="desc">
+        A review of physical indicators, theory-guided learning, and hybrid methods
+        for early warning under non-stationarity and limited data.
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Selected Projects</h2>
+
+    <div class="project">
+      <div class="project-title">Learn2Design-2026: A Self-Evolving Scientific Agent for Gravitational-Wave Detector Optimization</div>
+      <div class="project-meta">Scientific Agents · Optimization · Physics Simulation · Ongoing</div>
+
+      <p>
+        I developed a multi-agent workflow for high-dimensional, strongly coupled,
+        physics-constrained detector optimization. The system connects
+        <strong>historical design retrieval, initial-condition selection, workflow evolution,
+        optimizer evolution, physical simulation, and independent validation</strong>
+        in a closed loop.
+      </p>
+      <p>
+        The project includes the construction and compatibility screening of a historical
+        design database containing <strong>15,409 transferable records</strong>.
+        Under matched evaluation budgets, the current system achieves
+        <strong>more than 70% improvement</strong> over strong fixed workflows.
+      </p>
+    </div>
+
+    <div class="project">
+      <div class="project-title">Math Agent / NoThreeRL: Verifiable Reinforcement Learning for Combinatorial Construction</div>
+      <div class="project-meta">Verifiable RL · Search · Evaluation</div>
+      <p>
+        I built an integer-based independent verifier, an incremental search environment,
+        and a train/evaluation-separated data pipeline for the no-three-in-line construction problem.
+        The project contains 3,200 generated tasks and includes PPO reward design,
+        training recovery, and functional evaluation.
+      </p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Research Experience</h2>
+    <div class="timeline">
+      <div class="date">Jul.–Aug. 2026</div>
+      <div>
+        <strong>Visiting Student, Max Planck Institute for Meteorology (MPI-M)</strong><br>
+        <span class="small">
+          Research exchange at the German Climate Computing Center (DKRZ);
+          kilometer-scale Earth-system modeling and high-performance climate computing;
+          participant in the km-Scale Global Modelling Summit 2026.
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+
+    <div class="timeline">
+      <div class="date">2025 – Present</div>
+      <div>
+        <strong>Ph.D., Optoelectronic Science and Engineering</strong><br>
+        <span class="small">Nanjing University × Shanghai Innovation Institute</span>
+      </div>
+    </div>
+
+    <div class="timeline">
+      <div class="date">2022 – 2025</div>
+      <div>
+        <strong>M.Sc., Condensed Matter Physics</strong><br>
+        <span class="small">Tongji University</span>
+      </div>
+    </div>
+
+    <div class="timeline">
+      <div class="date">2018 – 2022</div>
+      <div>
+        <strong>B.Sc., Physics (International) / B.Ed.</strong><br>
+        <span class="small">Soochow University</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      Email:
+      <a href="mailto:602025220012@smail.nju.edu.cn">602025220012@smail.nju.edu.cn</a>
+      <span class="sep">/</span>
+      <a href="https://github.com/AngelRan-Sii" target="_blank" rel="noopener">GitHub</a>
+    </p>
+  </section>
+
+  <div class="footer">
+    Last updated: September 2026 · © Zhaoran Feng
+  </div>
+</main>
+</body>
+</html>
